@@ -1,0 +1,191 @@
+body {
+   
+    background-image: url(synth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 55%;
+    
+}
+
+.background {
+    background-color: rgb(0,0,0, 0.5);
+    
+    
+   
+}
+
+
+
+.links {
+   text-align: center;
+   margin-top: 200px;
+   transition: 0.4s;
+   opacity: 1;
+   transform: translateX(0);
+   transform-origin: left;
+   
+   
+   
+   
+}
+
+.port {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    
+    
+    
+}
+
+.caption {
+    display: block;
+    color: #FFFFFF;
+    background-color: rgb(0,0,0,0.5);
+    padding: 5px;
+}
+
+
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+    
+
+}
+
+ul {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+    
+   
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+img {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#video1:hover  {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+
+#video2:hover  {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+
+#video3:hover  {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+
+#comm1:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm2:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm3:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm4:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm5:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm6:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm7:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm8:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm9:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm10:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm11:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm12:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm13:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm14:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm15:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm16:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm17:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+#comm18:hover {
+    filter:brightness(150%);
+    transition: 0.5s ease;
+}
+
+
+
+  
+  html.is-animating .links {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+
+  html.is-leaving .links {
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+
+  
+
