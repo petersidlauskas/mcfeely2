@@ -182,7 +182,7 @@ a {
   }
 
   html.is-leaving .links {
-    opacity: 0;
+    opacity: 1;
     transform: translateX(0);
   }
 
