@@ -22,8 +22,7 @@ body {
    margin-top: 200px;
    transition: 0.4s;
    opacity: 1;
-   transform: translateX(0);
-   transform-origin: left;
+  
    
    
    
@@ -176,15 +175,7 @@ a {
 
 
   
-  html.is-animating .links {
-    opacity: 1;
-    transform: translateX(100%);
-  }
 
-  html.is-leaving .links {
-    opacity: 1;
-    transform: translateX(0);
-  }
 
 
   
